@@ -1,0 +1,4 @@
+pip install aiogram==2.25.1
+pip install Pillow
+pip install wget
+pip install openai
