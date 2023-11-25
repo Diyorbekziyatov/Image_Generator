@@ -12,10 +12,10 @@ from buttons import diyorbek
 logging.basicConfig(level=logging.INFO)
 
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="YOUR_OPENAI_API_KEY")
 
 
-TOKEN = '6636034372:AAFzQcJHfIhTyKopRncsD0Tj88_NVOMJ0Jo' 
+TOKEN = 'YOUR_BOT_TOKEN' 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
